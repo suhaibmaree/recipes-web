@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "book"
+  "defaultProject": "book",
+  "cli": {
+    "analytics": "94dbb4ff-5771-4840-b5e4-936f77a08699"
+  }
 }
