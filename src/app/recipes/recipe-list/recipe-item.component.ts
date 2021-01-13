@@ -9,7 +9,7 @@ import {Recipe} from '../recipe';
 export class RecipeItemComponent implements OnInit {
 
   @Input() recipe: Recipe | any ;
-  recipeId: number | any;
+  @Input() recipeId: number | any;
   constructor() { }
 
   ngOnInit(): void {
